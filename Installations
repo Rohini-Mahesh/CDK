@@ -51,8 +51,10 @@ Steps:
          $ source .venv/bin/activate
 
         If you are a Windows platform, you would activate the virtualenv like this:
+        .\source
 
          %.venv\Scripts\activate.bat
+         (new VS window after venv activation) code ./
 
          Once the virtualenv is activated, you can install the required dependencies.
 
